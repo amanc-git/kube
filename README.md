@@ -1,37 +1,30 @@
-# 🛡️ Kubernetes Kubeconfig Auto-Generator
+# 🧠 My Learning Repository
 
-This script automatically creates a `kube-admin` ServiceAccount with full `cluster-admin` privileges, generates a non-expiring token, and builds a ready-to-use `kubeconfig` file for accessing the Kubernetes Dashboard.
+Welcome to my personal learning repo! 👋
 
----
-
-## 🚀 Features
-
-- Creates a `kube-admin` service account in the `kube-system` namespace
-- Binds it to the `cluster-admin` role
-- Generates a non-expiring token
-- Detects the current node's IP address automatically
-- Creates a kubeconfig file at `/root/kube-admin-config.yaml`
-- Configured to work with Kubernetes Dashboard on HTTP port `30200`
+This repository is a collection of scripts, experiments, configurations, and notes created while exploring and practicing different technologies and concepts.
 
 ---
 
-## 📂 Files
+## 📚 Purpose
 
-- `setup-kubeadmin-config.sh` – Main setup script
-- `README.md` – This documentation
+This repo exists purely for **learning and experimentation**. It includes:
 
----
-
-## 🧾 Requirements
-
-- Kubernetes cluster running (v1.24+)
-- `kubectl` access as a cluster-admin
-- Kubernetes Dashboard already installed and exposed via NodePort `30200`
+- Bash scripting practice
+- Kubernetes experiments
+- Docker and containerization
+- Linux system administration
+- Automation and DevOps basics
+- Notes, tests, and more
 
 ---
 
-## 🛠️ Usage
+## ⚠️ Disclaimer
 
-```bash
-chmod +x setup-kubeadmin-config.sh
-sudo ./setup-kubeadmin-config.sh
+> 🚧 **This repository is not intended for production use.**
+>  
+> All scripts and configurations are created for self-education and lab use only. Use at your own risk and always double-check before running anything on a real system.
+
+---
+
+
