@@ -1,0 +1,9 @@
+🔧 How to Use:
+Save this as setup-kubeadmin-config.sh
+
+Run:
+chmod +x setup-kubeadmin-config.sh
+./setup-kubeadmin-config.sh
+Open the Kubernetes Dashboard in browser:
+http://<YOUR-NODE-IP>:30200   <-- change port number as your port number 
+and upload /root/kube-admin-config.yaml using the "Kubeconfig" login option.
